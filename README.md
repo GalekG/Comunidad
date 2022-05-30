@@ -1,2 +1,3 @@
-# Comunidad
-Practica Final POO
+#Practica Final POO - ITP
+#Kevin Checa
+Practica
