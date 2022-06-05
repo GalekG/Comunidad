@@ -1,0 +1,53 @@
+#Comunidad
+01;Trebol;Barcelona
+
+#Zona
+E;Escalera;P
+G;Garaje;I
+C;Zona Comun;I
+
+#Propiedad
+L;0-A;80;04;E-8;Banco Mundial;Banca
+L;0-B;90;05;E-9;Hercules;Seguros
+L;0-C;90;06;E-9;Caprabo;Alimentacion
+.El presidente de la comunidad del año 2008 es 04 Maria Gutierrez
+P;1-A;90;07;E-9,C-12;VH;2
+P;1-B;100;08;E-10,C-14;VH;3
+P;1-C;100;09;E-10,C-14;VNH;3
+P;2-A;150;01;E-15,C-20;VH;4
+
+.El presidente de la comunidad del año 2008 es 04 Maria Gutierrez
+
+P;2-B;150;02;E-15,C-20;VH;4
+
+P;2-C;150;03;E-15,C-20;VNH;4
+G;P01;12;14;G-10;A;N
+G;P02;12;15;G-10;A;N
+G;P03;15;01;G-10;A;S
+G;P04;15;02;G-10;A;S
+G;P05;15;03;G-10;A;S
+G;P06;15;04;G-10;C;N
+G;P07;15;10;G-10;C;N
+G;P08;15;11;G-10;C;N
+
+G;P09;15;12;G-10;C;N
+G;P10;15;13;G-10;C;N
+
+
+#Propietario
+01;Jorge Salas;Alcorcon (Madrid);jsalas@uoc.edu
+02;Jaime Rodriguez;Sabadell (Barcelona);jrodriguez@uoc.edu
+03;Nestor Crespo;Barcelona (Barcelona); ncrespo@uoc.edu
+04;Maria Gutierrez;Barcelona (Barcelona);mgutierrez@uoc.edu
+05;Miguel Palacios;Barcelona (Barcelona);mpalacios@uoc.edu
+06;Nuria Mas;Barcelona (Barcelona);nmas@uoc.edu
+07;Ricardo Torres;Barcelona (Barcelona);rtorres@uoc.edu
+08;Tomas Asensio;Barcelona (Barcelona);tasensio@uoc.edu
+09;Enrique Alos;Barcelona (Barcelona);ealos@uoc.edu
+10;Pedro Navarra;Barcelona (Barcelona);pnavarra@uoc.edu
+11;Sergio Briban;Barcelona (Barcelona);sbriban@uoc.edu
+12;Carlos Escudero;Barcelona (Barcelona);cescudero@uoc.edu
+13;Ruben Palencia;Barcelona (Barcelona);rpalencia@uoc.edu
+14;Paula Cabos;Barcelona (Barcelona);pcabos@uoc.edu
+15;Juan Tenorio;Barcelona (Barcelona);jtenorio@uoc.edu
+.El presidente de la comunidad del año 2008 es 04 Maria Gutierrez
