@@ -4,8 +4,19 @@ public class PlazaGarage extends Propiedad{//plaza de garage
 
     public PlazaGarage(String tipo, String codigo, double extension, String idPropietario, String estado, String trastero) {
         super(tipo, codigo, extension, idPropietario);
-        this.estado = estado;
-        this.trastero = trastero;
+
+        switch (estado){
+            case "A" -> this.estado = "Abierta";
+            case "C" -> this.estado = "Cerrada";
+            default -> this.estado = estado;
+        }
+
+        switch (trastero){
+            case "S" -> this.trastero = "Con Trastero";
+            case "N" -> this.trastero = "Sin Trastero";
+            default -> this.trastero = trastero;
+        }
+
     }
 
     public String getEstado() {

@@ -220,6 +220,7 @@ public class Archivo {
                                 for(Propiedad propiedad: listaPropiedades.getPropiedades()){
                                     if(propiedad.getIdPropietario().equals(propietario.getId())){
                                         propiedad.setPropietario(propietario);
+                                        propietario.getListaPropiedades().agregarPropiedad(propiedad);
                                     }
                                 }
                             }
@@ -227,7 +228,7 @@ public class Archivo {
                     }
                 }
 
-                else if(nombre.equals("Gastos.txt")){
+                else if(nombre.equals("gastos.txt")){
                     if(linea.length()!=0){
                         if(linea.charAt(0) == '.'){
                             //es comment

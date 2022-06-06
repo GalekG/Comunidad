@@ -4,6 +4,7 @@ public class LocalComercial extends Propiedad{
 
     public LocalComercial(String tipo, String codigo, double extension, String idPropietario, String nombreComercial, String actividad) {
         super(tipo, codigo, extension, idPropietario);
+
         this.nombreComercial = nombreComercial;
         this.actividad = actividad;
     }

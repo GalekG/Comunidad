@@ -1,0 +1,19 @@
+C.     Nombre Propietario                  Email    Propiedades
+---------------------------------------------------------------
+01            Jorge Salas         jsalas@uoc.edu       2-A, P03
+02        Jaime Rodriguez     jrodriguez@uoc.edu       2-B, P04
+03          Nestor Crespo        ncrespo@uoc.edu       2-C, P05
+04        Maria Gutierrez     mgutierrez@uoc.edu       0-A, P06
+05        Miguel Palacios      mpalacios@uoc.edu            0-B
+06              Nuria Mas           nmas@uoc.edu            0-C
+07         Ricardo Torres        rtorres@uoc.edu            1-A
+08          Tomas Asensio       tasensio@uoc.edu            1-B
+09           Enrique Alos          ealos@uoc.edu            1-C
+10          Pedro Navarra       pnavarra@uoc.edu            P07
+11          Sergio Briban        sbriban@uoc.edu            P08
+12        Carlos Escudero      cescudero@uoc.edu            P09
+13         Ruben Palencia      rpalencia@uoc.edu            P10
+14            Paula Cabos         pcabos@uoc.edu            P01
+15           Juan Tenorio       jtenorio@uoc.edu            P02
+---------------------------------------------------------------
+15 Propietarios en Total

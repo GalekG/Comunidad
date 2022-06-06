@@ -12,5 +12,6 @@ REIX;Rejas Jardin;1500;C
 JARD;Jardinero;1500;C
 ANTE;Antena Comunitaria;700;C
 OB01;Obras Escalera;3000;E
+0AE0;No Idea;79;C 
 
  

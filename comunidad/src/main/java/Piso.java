@@ -4,7 +4,13 @@ public class Piso extends Propiedad{
 
     public Piso(String tipo, String codigo, double extension, String idPropietario, String tipoVivienda, int dormitorios) {
         super(tipo, codigo, extension, idPropietario);
-        this.tipoVivienda = tipoVivienda;
+
+        switch (tipoVivienda) {
+            case "VH" -> this.tipoVivienda = "Vivienda Habitada";
+            case "VNH" -> this.tipoVivienda = "Vivienda NO Habitada";
+            default -> this.tipoVivienda = tipoVivienda;
+        }
+
         this.dormitorios = dormitorios;
     }
 

@@ -4,6 +4,7 @@ public class Propietario {
     private String provincia;
     private String municipio;
     private String correo;
+    private ListaPropiedades listaPropiedades;
 
     public Propietario(String id, String nombre, String provincia, String municipio, String correo) {
         this.id = id;
@@ -11,6 +12,7 @@ public class Propietario {
         this.provincia = provincia;
         this.municipio = municipio;
         this.correo = correo;
+        listaPropiedades = new ListaPropiedades();
     }
 
     public String getId() {
@@ -53,11 +55,20 @@ public class Propietario {
         this.correo = correo;
     }
 
+    public ListaPropiedades getListaPropiedades() {
+        return listaPropiedades;
+    }
+
+    public void setListaPropiedades(ListaPropiedades listaPropiedades) {
+        this.listaPropiedades = listaPropiedades;
+    }
+
     public void mostrarDatos(){
         System.out.println("\nId Propietario: "+id);
         System.out.println("Nombre: "+nombre);
         System.out.println("Provincia: "+provincia);
         System.out.println("Municipio: "+municipio);
         System.out.println("Correo: "+correo);
+        listaPropiedades.mostrarPropiedades();
     }
 }
